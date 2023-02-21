@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <header className="header bg-gray-700-700 bg-transparent">
-      <nav className="navbar container mx-auto capitalize flex justify-between items-center h-20 fixed top-0">
+      <nav className="navbar container mx-auto capitalize flex justify-between items-center h-20">
         <div className="logo cursor-pointer text-lg text-gray-700">
           <span>navbar logo</span>
         </div>
