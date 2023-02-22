@@ -5,13 +5,15 @@ import Home from "./pages/Home";
 
 const App = () => {
   return (
-    <div className="app">
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
+    <>
+      <div className="app min-h-screen">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
       <Footer />
-    </div>
+    </>
   );
 };
 
