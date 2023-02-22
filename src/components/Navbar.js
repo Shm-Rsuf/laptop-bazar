@@ -12,7 +12,7 @@ const Navbar = () => {
           <input
             type="search"
             placeholder="search here.."
-            className="bg-rose-200/40 p-2 px-6 rounded-full outline-none focus:border-2 border-rose-200 duration-300"
+            className="bg-rose-200/40 p-2 px-6 rounded-full outline-none focus:border border-rose-200 duration-300"
           />
         </form>
 
