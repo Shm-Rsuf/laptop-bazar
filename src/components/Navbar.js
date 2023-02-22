@@ -8,6 +8,14 @@ const Navbar = () => {
           <span>navbar logo</span>
         </div>
 
+        <form>
+          <input
+            type="search"
+            placeholder="search here.."
+            className="bg-rose-200/40 p-2 px-6 rounded-full outline-none focus:border-2 border-rose-200 duration-300"
+          />
+        </form>
+
         <ul className="links text-lg text-gray-600 flex justify-between items-center gap-5">
           <li className="">
             <Link className="link-item ">home</Link>
