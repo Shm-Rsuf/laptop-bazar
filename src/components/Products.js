@@ -4,8 +4,8 @@ const Products = () => {
       <h2 className="product-title relative text-6xl text-center mb-20">
         Our products
       </h2>
-      <div className="product-wrapper mt-40 grid grid-cols-5 gap-5 px-10">
-        <div className="product-cart w-60 overflow-hidden  px-2 border">
+      <div className="product-wrapper mt-40 grid grid-cols-1 justify-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-5 gap-y-10 mx-5">
+        <div className="product-cart w-60 overflow-hidden border">
           <div className="product-img w-full">
             <img
               src="https://skyblue.com.bd/wp-content/uploads/2020/09/Black-Fbd_Westhighland-Whit_1-300x300.jpg"
@@ -22,7 +22,7 @@ const Products = () => {
             </span>
           </div>
         </div>
-        <div className="product-cart w-60 overflow-hidden flex flex-col gap-5 px-2 border">
+        <div className="product-cart w-60 overflow-hidden border">
           <div className="product-img w-full">
             <img
               src="https://skyblue.com.bd/wp-content/uploads/2020/09/Black-Fbd_Westhighland-Whit_1-300x300.jpg"
@@ -37,7 +37,7 @@ const Products = () => {
             <span className="text-gray-900">৳ 1,290.00</span>
           </div>
         </div>
-        <div className="product-cart w-60 overflow-hidden flex flex-col gap-5 px-2 border">
+        <div className="product-cart w-60 overflow-hidden border">
           <div className="product-img w-full">
             <img
               src="https://skyblue.com.bd/wp-content/uploads/2020/09/Black-Fbd_Westhighland-Whit_1-300x300.jpg"
@@ -52,7 +52,7 @@ const Products = () => {
             <span className="text-gray-900">৳ 1,290.00</span>
           </div>
         </div>
-        <div className="product-cart w-60 overflow-hidden flex flex-col gap-5 px-2 border">
+        <div className="product-cart w-60 overflow-hidden border">
           <div className="product-img w-full">
             <img
               src="https://skyblue.com.bd/wp-content/uploads/2020/09/Black-Fbd_Westhighland-Whit_1-300x300.jpg"
@@ -67,7 +67,7 @@ const Products = () => {
             <span className="text-gray-900">৳ 1,290.00</span>
           </div>
         </div>
-        <div className="product-cart w-60 overflow-hidden flex flex-col gap-5 px-2 border">
+        <div className="product-cart w-60 overflow-hidden border">
           <div className="product-img w-full">
             <img
               src="https://skyblue.com.bd/wp-content/uploads/2020/09/Black-Fbd_Westhighland-Whit_1-300x300.jpg"
@@ -82,7 +82,7 @@ const Products = () => {
             <span className="text-gray-900">৳ 1,290.00</span>
           </div>
         </div>
-        <div className="product-cart w-60 overflow-hidden flex flex-col gap-5 px-2 border">
+        <div className="product-cart w-60 overflow-hidden border">
           <div className="product-img w-full">
             <img
               src="https://skyblue.com.bd/wp-content/uploads/2020/09/Black-Fbd_Westhighland-Whit_1-300x300.jpg"
@@ -97,7 +97,7 @@ const Products = () => {
             <span className="text-gray-900">৳ 1,290.00</span>
           </div>
         </div>
-        <div className="product-cart w-60 overflow-hidden flex flex-col gap-5 px-2 border">
+        <div className="product-cart w-60 overflow-hidden border">
           <div className="product-img w-full">
             <img
               src="https://skyblue.com.bd/wp-content/uploads/2020/09/Black-Fbd_Westhighland-Whit_1-300x300.jpg"
@@ -112,7 +112,7 @@ const Products = () => {
             <span className="text-gray-900">৳ 1,290.00</span>
           </div>
         </div>
-        <div className="product-cart w-60 overflow-hidden flex flex-col gap-5 px-2 border">
+        <div className="product-cart w-60 overflow-hidden border">
           <div className="product-img w-full">
             <img
               src="https://skyblue.com.bd/wp-content/uploads/2020/09/Black-Fbd_Westhighland-Whit_1-300x300.jpg"
@@ -127,7 +127,7 @@ const Products = () => {
             <span className="text-gray-900">৳ 1,290.00</span>
           </div>
         </div>
-        <div className="product-cart w-60 overflow-hidden flex flex-col gap-5 px-2 border">
+        <div className="product-cart w-60 overflow-hidden border">
           <div className="product-img w-full">
             <img
               src="https://skyblue.com.bd/wp-content/uploads/2020/09/Black-Fbd_Westhighland-Whit_1-300x300.jpg"
@@ -142,7 +142,7 @@ const Products = () => {
             <span className="text-gray-900">৳ 1,290.00</span>
           </div>
         </div>
-        <div className="product-cart w-60 overflow-hidden flex flex-col gap-5 px-2 border">
+        <div className="product-cart w-60 overflow-hidden border">
           <div className="product-img w-full">
             <img
               src="https://skyblue.com.bd/wp-content/uploads/2020/09/Black-Fbd_Westhighland-Whit_1-300x300.jpg"
