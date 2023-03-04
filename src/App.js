@@ -1,25 +1,24 @@
-// import { Route, Routes } from "react-router-dom";
-import Feature from "./components/Feature";
+import { Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
-import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Products from "./components/Products";
-// import Home from "./pages/Home";
+import Store from "./pages/Store";
+import Contact from "./pages/Contact";
+import Account from "./pages/Account";
+import About from "./pages/About";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
     <>
       <div className="app min-h-screen">
         <Navbar />
-        {/* <Routes>
+        <Routes>
           {<Route path="/" element={<Home />} />}
-          <Route path="/" element={<Hero />} />
-          <Route path="/reature" element={<Feature />} />
-          <Route path="/product" element={<Products />} />
-        </Routes> */}
-        <Hero />
-        <Feature />
-        <Products />
+          <Route path="/store" element={<Store />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/account" element={<Account />} />
+        </Routes>
       </div>
       <Footer />
     </>
