@@ -6,7 +6,7 @@ const Navbar = () => {
       <nav className="nav container mx-auto flex justify-between items-center">
         <Link
           to="/"
-          className="logo cursor-pointer text-gray-600 text-lg collapse md:visible"
+          className="logo cursor-pointer text-gray-600 text-lg hidden md:block"
         >
           <span>navbar logo</span>
         </Link>
@@ -15,11 +15,11 @@ const Navbar = () => {
           <input
             type="search"
             placeholder="search here.."
-            className="bg-rose-200/40 p-2 px-6 rounded-full outline-none focus:border border-rose-200 duration-300 collapse md:visible"
+            className="bg-rose-200/40 p-2 px-6 rounded-full outline-none focus:border border-rose-200 duration-300 hidden md:block"
           />
         </form>
 
-        <ul className="links text-lg text-gray-600 flex justify-between items-center gap-5">
+        <ul className="links text-lg text-gray-600 flex justify-center items-center gap-5">
           <li className="">
             <Link to="/" className="link-item ">
               home
