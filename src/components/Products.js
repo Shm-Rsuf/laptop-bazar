@@ -1,6 +1,6 @@
 const Products = () => {
   return (
-    <div className="our-products mt-40">
+    <div className="our-products mt-40" id="#product">
       <h2 className="product-title relative text-6xl text-center mb-20">
         Our products
       </h2>
