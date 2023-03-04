@@ -24,12 +24,6 @@ const Navbar = () => {
             <Link className="link-item">store</Link>
           </li>
           <li>
-            <Link className="link-item">men</Link>
-          </li>
-          <li>
-            <Link className="link-item">women</Link>
-          </li>
-          <li>
             <Link className="link-item">accessories</Link>
           </li>
           <li>
