@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <header className="header h-20 flex capitalize">
+    <header className="header h-20 flex capitalize shadow-md">
       <nav className="nav container mx-auto flex justify-between items-center">
         <Link
           to="/"
