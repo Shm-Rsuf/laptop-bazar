@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="footer-bottom container mx-auto flex justify-between items-center pt-10">
+      <div className="footer-bottom container mx-auto flex justify-between items-center pt-10 border-t">
         <p>copyright &copy;{new Date().getFullYear()} laptop bazar.</p>
         <p>powered by shm usuf</p>
       </div>
