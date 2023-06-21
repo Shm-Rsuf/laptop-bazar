@@ -6,7 +6,7 @@ import Contact from "./pages/Contact";
 import Account from "./pages/Account";
 import About from "./pages/About";
 import Home from "./pages/Home";
-import Cart from "./components/Cart";
+import Cart from "./pages/Cart";
 
 const App = () => {
   return (
