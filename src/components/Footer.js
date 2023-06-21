@@ -28,6 +28,7 @@ const Footer = () => {
             <Link to="/account">Account</Link>
           </div>
         </div>
+
         <div className="footer-top-three w-[220px] flex flex-col items-start gap-5 p-5">
           <div className="footer-heading">
             <h3>Quick Links</h3>

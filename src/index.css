@@ -63,3 +63,9 @@ input[type="search"]::placeholder {
   color: #4b5563;
   text-transform: capitalize;
 }
+
+@media screen and (max-width: 640px) {
+  .footer-top {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
